@@ -1,0 +1,105 @@
+    /* background color/pattern */
+
+    body {
+        background:
+        linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+        linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+        background-color:#708090;
+        background-size: 64px 128px;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        padding-left: 2%;
+        z-index: 99;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 180%;
+        font-weight: bolder;
+        padding: 5% 5% 0% 5%;
+        font-family: 'Anton, sans-serif';
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 130%;
+        font-weight: normal;
+        padding: 0% 5% 2% 5%;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .profile {
+        height: 100%;
+        width: 75%;
+        margin: 10% auto 20% auto;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
+
+
+    .contact-icons {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+        width: 50%;
+        }
+
+    .contact-icons p {
+        display: none;
+        background-color: #1a1919;
+        color: #ffffff;
+        text-align: center;
+        padding: 2%;
+        margin-top: 5%;
+    }
+
+    .contact-icons:hover p {
+        display: block;
+    }
+
+    .portfolio-header {
+        height: 100%;
+        width: 35%;
+        margin: 10% auto 5% auto;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
+
+    .portfolio-header h1 {
+        padding: 5%;
+        font-size: 210%;
+    }
+
+    .portfolio-section {
+        height: 100%;
+        width: 30%;
+        margin: auto;
+        padding: 2%;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
+
+    .contact-container {
+        height: 100%;
+        width: 70%;
+        margin: 10% auto auto auto;
+        padding: 2%;
+        background-color: #f2f2f2;
+        border-radius: 5%;
+    }
+
+    .contact-container h1 {
+        margin-bottom: 5%;
+    }
